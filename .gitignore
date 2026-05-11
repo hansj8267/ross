@@ -1,0 +1,9 @@
+node_modules/
+src-tauri/target/
+*.log
+*.db
+.DS_Store
+dist/
+ross-projects/
+*.mp3
+*.wav
