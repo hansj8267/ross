@@ -45,6 +45,12 @@ User Audio Output
 - 🌅 **Daily briefing** — Automated morning summary of weather, calendar, and assignments
 
 ## Voice Pipeline
+1. Continuous microphone stream sent to Deepgram WebSocket API
+2. Wake-word detection activates Ross interaction mode
+3. Speech transcribed in real time with VAD
+4. Claude agentic loop processes user intent and tool calls
+5. Responses synthesized through ElevenLabs TTS
+6. Audio streamed back with low-latency playback
 ## Setup
 
 ### Prerequisites
