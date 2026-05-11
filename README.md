@@ -5,6 +5,22 @@
 ![Tech Stack](https://img.shields.io/badge/Claude_API-Anthropic-orange) ![Deepgram](https://img.shields.io/badge/STT-Deepgram-blue) ![ElevenLabs](https://img.shields.io/badge/TTS-ElevenLabs-purple) ![Tauri](https://img.shields.io/badge/Desktop-Tauri-green)
 
 ## Architecture
+```text
+Microphone Input
+        ↓
+Deepgram WebSocket STT
+        ↓
+Wake Word Detection
+        ↓
+Claude Agentic Loop
+        ↓
+Tool Calling / Memory Retrieval
+        ↓
+External APIs / Local Automation
+        ↓
+ElevenLabs TTS Response
+        ↓
+User Audio Output
 ## Tech Stack
 
 | Layer | Technology |
