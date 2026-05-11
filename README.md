@@ -5,7 +5,7 @@
 ![Tech Stack](https://img.shields.io/badge/Claude_API-Anthropic-orange) ![Deepgram](https://img.shields.io/badge/STT-Deepgram-blue) ![ElevenLabs](https://img.shields.io/badge/TTS-ElevenLabs-purple) ![Tauri](https://img.shields.io/badge/Desktop-Tauri-green)
 
 ## Architecture
-```text
+
 Microphone Input
         ↓
 Deepgram WebSocket STT
